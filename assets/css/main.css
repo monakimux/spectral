@@ -1583,6 +1583,15 @@ pre code {
 	overflow-x: auto;
 }
 
+a img:hover {
+	-moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+	-moz-transform: scale(1.1);
+ -webkit-transform: scale(1.1);
+ transform: scale(1.1);
+}
+
 .align-left {
 	text-align: left;
 }
@@ -1942,9 +1951,11 @@ input[type="radio"] + label:before {
 	border: 0;
 	display: inline-block;
 	position: relative;
+	overflow: hidden;
 }
 
 .image img {
+	max-width: 100%;
 	border-radius: 3px;
 	display: block;
 }
@@ -1970,16 +1981,20 @@ input[type="radio"] + label:before {
 }
 
 .image.fit {
+	overflow: hidden;
 	display: block;
 	margin: 0 0 2em 0;
 	width: 100%;
 }
 
 .image.fit img {
+	max-width: 100%;
+	max-length: 100%;
 	width: 100%;
 }
 
 .image.thumb img {
+	max-width: 100%;
 	width: 40%;
 }
 
@@ -1995,7 +2010,7 @@ input[type="radio"] + label:before {
 	width:100%;
   transform: scale(1.7);
   -ms-transform: scale(1.7); /* IE 9 */
-  -webkit-transform: scale(1.7); /* Safari and Chrome *
+  -webkit-transform: scale(1.7); /* Safari and Chrome */
 } */
 
 /* List */
@@ -2638,12 +2653,20 @@ button:disabled,
 /* Wrapper */
 
 .wrapper {
-	padding: 6em 0 6em 0 ;
+	padding: 4em 5em 4em 5em;
 }
 
 .wrapper > .inner {
 	width: 60em;
 	margin: 0 auto;
+}
+
+@media screen and (max-width: 1680px) {
+
+	.wrapper > .inner {
+		width: 80%;
+	}
+
 }
 
 @media screen and (max-width: 1280px) {
@@ -2704,6 +2727,10 @@ button:disabled,
 }
 
 .wrapper.style1 label {
+	color: #ffffff;
+}
+
+.wrapper.style1 a:hover {
 	color: #ffffff;
 }
 
@@ -2822,6 +2849,10 @@ button:disabled,
 
 .wrapper.style2 {
 	background-color: #ffffff;
+}
+
+.wrapper.style2 a:hover {
+	color: #94ADC8;
 }
 
 .wrapper.style3 {
@@ -3021,6 +3052,10 @@ button:disabled,
 
 .wrapper.style5 label {
 	color: #2E3842;
+}
+
+.wrapper.style5 a:hover {
+	color: #94ADC8;
 }
 
 .wrapper.style5 input[type="text"],
