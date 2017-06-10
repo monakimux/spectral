@@ -1989,11 +1989,8 @@ input[type="radio"] + label:before {
 
 .image.fit img {
 	max-width: 100%;
-	max-length: 100%;
+	max-height: 100%;
 	width: 100%;
-}
-
-.image.fit a {
 }
 
 .image.thumb img {
@@ -2028,6 +2025,12 @@ input[type="radio"] + label:before {
 	-moz-transform: none;
  -webkit-transform: none;
  transform: none;
+}
+
+.lightbox > h1 {
+color: #ffffff;
+margin: 0 0 1em 0;
+text-transform: uppercase;
 }
 
 .lightbox:target {
@@ -4006,7 +4009,7 @@ body.is-mobile #main3 > header {
 	background-color: #1d242a;
 	text-align: center;
 }
-<!-- begin merge -->
+
 #footer > .inner {
 	display: -moz-flex;
 	display: -webkit-flex;
