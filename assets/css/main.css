@@ -2373,9 +2373,9 @@ input[type="reset"].special,
 input[type="button"].special,
 button.special,
 .button.special {
-	background-color: #ed4933;
+	background-color: #DE8E85;
 	box-shadow: none !important;
-	color: #ffffff !important;
+	color: #fff !important;
 }
 
 input[type="submit"].special:hover,
@@ -2383,7 +2383,7 @@ input[type="reset"].special:hover,
 input[type="button"].special:hover,
 button.special:hover,
 .button.special:hover {
-	background-color: #ef5e4a !important;
+	background-color: #F0BCB6 !important;
 }
 
 input[type="submit"].special:active,
@@ -2391,7 +2391,7 @@ input[type="reset"].special:active,
 input[type="button"].special:active,
 button.special:active,
 .button.special:active {
-	background-color: #eb341c !important;
+	background-color: #DE8E85 !important;
 }
 
 input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2588,6 +2588,10 @@ button:disabled,
 	color: #2e3842;
 }
 
+.spotlight h2 > a:hover {
+	font-size:1.03em;
+}
+
 .spotlight:nth-child(2n) {
 	-moz-flex-direction: row-reverse;
 	-webkit-flex-direction: row-reverse;
@@ -2718,16 +2722,16 @@ button:disabled,
 }
 
 .wrapper.style1 {
-	background-color: #21b2a6;
+	background-color: #a6e0db;
 	color: #c7ebe8;
 }
 
 .wrapper.style1 strong, .wrapper.style1 b {
-	color: #ffffff;
+	color: #2E3842;
 }
 
 .wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6 {
-	color: #ffffff;
+	color: #2E3842;
 }
 
 .wrapper.style1 hr {
@@ -2759,7 +2763,7 @@ button:disabled,
 }
 
 .wrapper.style1 a:hover {
-	color: #ffffff;
+	color: #2E3842;
 }
 
 .wrapper.style1 input[type="text"],
@@ -2880,7 +2884,8 @@ button:disabled,
 }
 
 .wrapper.style2 a:hover {
-	color: #94ADC8;
+	color: #000000;
+	font-weight:bolder;
 }
 
 .wrapper.style3 {
@@ -3083,7 +3088,8 @@ button:disabled,
 }
 
 .wrapper.style5 a:hover {
-	color: #94ADC8;
+	color: #2E3842;
+	font-weight:600;
 }
 
 .wrapper.style5 input[type="text"],
@@ -3249,8 +3255,8 @@ button:disabled,
 	-ms-transition: -ms-transform 0.5s ease;
 	transition: transform 0.5s ease;
 	-webkit-overflow-scrolling: touch;
-	background: #21b2a6;
-	color: #ffffff;
+	background: #a6e0db;
+	color: #2E3842;
 	height: 100%;
 	max-width: 80%;
 	overflow-y: auto;
@@ -3288,6 +3294,10 @@ button:disabled,
 	outline: 0;
 	text-decoration: none;
 	text-transform: uppercase;
+}
+
+#menu ul > li > a:hover {
+	font-weight:600;
 }
 
 @media screen and (max-width: 736px) {
@@ -3536,6 +3546,10 @@ body.is-menu-visible #menu {
 
 		#banner p a {
 			color: inherit;
+		}
+
+		#banner a:hover{
+			font-weight:600;
 		}
 
 	#banner .more {
@@ -4000,6 +4014,19 @@ text-align: center;
 
 body.is-mobile #main3 > header {
 	background-attachment: scroll;
+}
+
+/* Other Projects */
+.otherprojects {
+	margin-left: 25%;
+}
+
+.otherprojects a{
+	color:#2E3842;
+}
+
+.otherprojects a:hover {
+	font-weight:600;
 }
 
 /* Footer */
