@@ -3380,7 +3380,6 @@ body.is-menu-visible #menu {
 	display: block;
 	height: inherit;
 	line-height: inherit;
-	color: #F0BCB6;
 }
 
 @media screen and (max-width: 736px) {
@@ -3877,10 +3876,10 @@ body.is-mobile #main2 > header {
 
 #main4 > header {
 	padding: 12em 0 10em 0 ;
-	background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/itabanner.png");
-	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/itabanner.png");
-	background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/itabanner.png");
-	background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/itabanner.png");
+	background-image: -moz-linear-gradient(top, rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)), url("../../images/itabanner.png");
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)), url("../../images/itabanner.png");
+	background-image: -ms-linear-gradient(top, rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)), url("../../images/itabanner.png");
+	background-image: linear-gradient(top, rgba(0,0,0, 0.5), rgba(0,0,0,0.5)), url("../../images/itabanner.png");
 	background-attachment: fixed;
 	background-position: center center;
 	background-repeat: no-repeat;
