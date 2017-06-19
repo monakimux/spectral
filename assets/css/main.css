@@ -4034,12 +4034,16 @@ body.is-mobile #main3 > header {
 	margin-left: 25%;
 }
 
-.otherprojects a{
+.otherprojects a {
 	color:#2E3842;
 }
 
 .otherprojects a:hover {
 	font-weight:600;
+}
+
+body.is-mobile .otherprojects a {
+	font-size: 10pt;
 }
 
 /* Footer */
