@@ -4159,6 +4159,10 @@ body.is-mobile .otherprojects{
 
 @media screen and (max-width: 980px) {
 
+#footer {
+		padding: 3em 0 1em 0 ;
+	}
+	
 	#footer > .inner section:nth-child(1) {
 		width: 60%;
 		margin-right: 0;
