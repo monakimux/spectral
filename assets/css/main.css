@@ -4068,6 +4068,7 @@ body.is-mobile .otherprojects{
 	-webkit-flex-direction: row;
 	-ms-flex-direction: row;
 	flex-direction: row;
+	text-align: center;
 }
 
 #footer > .inner > * > :last-child {
