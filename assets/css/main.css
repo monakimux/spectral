@@ -3426,6 +3426,7 @@ body.is-menu-visible #menu {
 #header nav > ul > li > a.menuToggle {
 	outline: 0;
 	position: relative;
+	box-sizing: border-box;
 }
 
 #header nav > ul > li > a.menuToggle:after {
