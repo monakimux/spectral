@@ -3441,6 +3441,8 @@ body.is-menu-visible #menu {
 	height: 3.75em;
 	vertical-align: top;
 	width: 2em;
+	box-sizing: border-box;
+
 }
 
 @media screen and (max-width: 736px) {
